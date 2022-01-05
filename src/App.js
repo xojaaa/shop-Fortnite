@@ -1,11 +1,16 @@
 import React from "react";
-import Asos from "./film/asos";
+import './SPA/spa.css'
+import Nav from "./SPA/nav";
+import Main from "./SPA/main";
+import Footer from "./SPA/footer";
 
 
 function App() {
     return (
         <div className="App">
-            <Asos/>
+            <Nav/>
+            <Main/>
+            <Footer/>
         </div>
 
     );
